@@ -1,0 +1,15 @@
+To genarate the single training file from the directory of training files for either SPAM or SENTIMENT
+1.Place the sstrain.py in that directory
+2.Set the path in the terminal to that directory
+3.run using the command:  python3 sstrain.py
+
+A file with name TRAININGFILE is generated which is the file used in generating the model file by nblearn.py
+
+
+To genarate the single test file from the directory of training files for either SPAM or SENTIMENT
+1.Place the sstrain.py in that directory
+2.Set the path in the terminal to that directory
+3.run using the command:  python3 sstest.py
+
+A file with name TESTFILE is generated which is used by nbclassify.py along with model file for classification
+
